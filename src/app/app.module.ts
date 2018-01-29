@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ParallaxComponent } from './parallax/parallax.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParallaxComponent
   ],
   imports: [
     BrowserModule
